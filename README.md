@@ -36,7 +36,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn
    Plot clustered data to visualize customer segments.
 
 7. **Model Evaluation**  
-   Calculate Silhouette Score (\(0.70\) for \(k=5\)) to validate cluster quality.
+   Calculate Silhouette Score **0.70** for **k=5** to validate cluster quality.
 
 ## Key Results
 - **Optimal Clusters**: 5 clusters identified via the elbow method, validated by a **Silhouette Score of 0.70** (indicating well-separated, cohesive groups).  
@@ -46,7 +46,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn
   - **Cluster 0 (Teal)**: Medium-income, medium-spending customers (center: balanced income and spending).  
   - **Cluster 4 (Green)**: Low-income, low-spending customers (bottom-left: low income, low spending score).  
   - **Cluster 2 (Blue)**: Low-income, high-spending customers (bottom-right: low income, high spending score).  
-- **Validation**: Silhouette Score of \(\boldsymbol{0.70}\) confirms robust cluster quality (scores >0.5 indicate meaningful separation; scores closer to 1 denote stronger cohesion).
+- **Validation**: Silhouette Score of **0.70** confirms robust cluster quality (scores >0.5 indicate meaningful separation; scores closer to 1 denote stronger cohesion).
 
 ## How to Run
 1. Place `Mall_Customers.csv` in the `dataset/` folder.
